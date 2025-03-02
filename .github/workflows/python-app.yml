@@ -29,7 +29,7 @@ jobs:
       - name: 暂存提交
         run: |
           git config --global user.name '52liulian'
-          git config --global user.email '52liulian@qq.com'
+          git config --global user.email '52liulian@126.com'
           export TZ='Asia/Shanghai'
           git add .
           git commit -m "update" -a
