@@ -1,5 +1,5 @@
 name: Python application
-on:
+于:
   push:
   schedule:
     - cron: '0 21 * * 1'
@@ -38,8 +38,8 @@ jobs:
           python autoUrl.py
       - name: 暂存提交
         run: |
-          git config --global user.name 'hl128k'
-          git config --global user.email 'hl128k@qq.com'
+          git config --global user.name '52liulian'
+          git config --global user.email '52liulian@126.com'
           export TZ='Asia/Shanghai'
           git add .
           git commit -m "update" -a
